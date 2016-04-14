@@ -6,7 +6,7 @@ $arr = file_get_contents("text.txt");
 
 $j = 0;
 
-echo count($arr);
+//echo count($arr);//не правильно считает размер массива
 
 for ($i = 0; $i < 14; $i++) {
     if ($arr[$i] == "0")
